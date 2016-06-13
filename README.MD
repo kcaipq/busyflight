@@ -9,7 +9,7 @@ mvn clean spring-boot:run
 - No data post processing after receiving JSON responses from each provider
 - Search functions are not implemented over aggregated result.
 
-http://localhost:8080/provider/crazyair
+- http://localhost:8080/provider/crazyair
 {
 	"origin":"IOP",
     "destination":"BJI",
@@ -17,7 +17,8 @@ http://localhost:8080/provider/crazyair
     "returnDate":"2017-12-22",
 	"numberOfPassengers":1	
 }
-http://localhost:8080/provider/toughjet
+
+- http://localhost:8080/provider/toughjet
 {
 	"from":"IOP",
     "to":"BJI",
@@ -29,7 +30,8 @@ http://localhost:8080/provider/toughjet
     "returnYear":2017,
 	"numberOfAdults":1
 }
-http://localhost:8080/search
+
+- http://localhost:8080/search
 {
 	"origin":"IOP",
     "destination":"BJI",
